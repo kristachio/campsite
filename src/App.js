@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
+import CampsitesList from './features/counter/campsites/CampsitesList.js';
 import NucampLogo from './app/assets/img/logo.png';
 import './App.css';
 
@@ -13,7 +14,7 @@ function App() {
             </NavbarBrand>
           </Container>
         </Navbar>
-        I'm ready for workshop!
+        <CampsitesList />
     </div>
   );
 }
