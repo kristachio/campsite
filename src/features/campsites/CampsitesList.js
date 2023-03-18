@@ -1,4 +1,4 @@
-import { CAMPSITES } from "../../../app/shared/CAMPSITES.js";
+import { CAMPSITES } from "../../app/shared/CAMPSITES.js";
 import { Col, Row } from 'reactstrap';
 import CampsiteCard from "./CampsiteCard";
 
@@ -11,7 +11,7 @@ const CampsitesList = () => {
                         <CampsiteCard campsite={campsite} />
                     </Col>
                 );
-            })};
+            })}
         </Row>
     );
 };
